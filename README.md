@@ -48,6 +48,9 @@ Then open the local URL shown in your terminal.
 
 The app requests 10 science jokes and renders each joke with its category. If the API is unavailable, the page may show empty content until the data is available.
 
+## Screenshots
+![App Screenshot](././public/Screenshot%202026-05-03%20183426.png)
+
 ## License
 
 MIT
