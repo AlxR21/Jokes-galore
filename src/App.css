@@ -1,0 +1,37 @@
+body {
+  background: #e8f1f5;
+  color: #2d3a4b;
+  margin: 0;
+  font-family: "Comic Sans MS", "Chalkboard SE", "Comic Neue", cursive;
+}
+
+.joke-card {
+  background: #ffffff;
+  border: 2px dashed #a7c7e7;
+  border-radius: 18px;
+  box-shadow: 0 10px 25px rgba(45, 58, 75, 0.12);
+  margin: 1rem auto;
+  max-width: 760px;
+  padding: 1.4rem 1.6rem;
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+.joke-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 14px 30px rgba(45, 58, 75, 0.18);
+}
+
+.joke-content {
+  font-size: 1.25rem;
+  line-height: 1.7;
+  margin: 0 0 1rem;
+}
+
+.joke-category {
+  color: #526d8c;
+  font-size: 0.95rem;
+  font-weight: 700;
+  margin: 0;
+}
